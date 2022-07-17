@@ -19,8 +19,10 @@ void findOps(char *token, stack_t **stk, unsigned int line_number)
 		{"pop", pop},
 		{"swap", swap},
 		{"add", add},
+		{"mul", _mul},
 		{"nop", _nop},
 		{"sub", sub},
+		{"mod", _mod},
 		{NULL, NULL}
 	};
 
