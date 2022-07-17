@@ -1,4 +1,4 @@
-i#include "monty.h"
+#include "monty.h"
 
 /**
  * main - primary function with two arguments
